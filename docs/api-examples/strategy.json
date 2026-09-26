@@ -1,0 +1,199 @@
+{
+  "strategy": "auto",
+  "direction": "ALL",
+  "period": "365d",
+  "segment": {
+    "key": "auto",
+    "strategy": "auto",
+    "direction": null,
+    "returnPct": 167.71,
+    "avgMonthPct": 13.97,
+    "trades": 94504,
+    "winRate": 96,
+    "avgTradePct": 2.12,
+    "avgDurationSec": 30907,
+    "drawdownP90Pct": -39.1,
+    "liqShare": 1.03,
+    "bots": 1210,
+    "risk": "very_high",
+    "spark": [
+      17.68,
+      -0.15,
+      10.62,
+      17.79,
+      11.05,
+      12.19,
+      16.37,
+      19.94,
+      14.2,
+      13.95,
+      15.21,
+      12.24
+    ]
+  },
+  "equity": [
+    {
+      "t": "2025-09-27",
+      "v": 1.212,
+      "b": -0.669,
+      "d": 1.212
+    },
+    {
+      "t": "2025-09-28",
+      "v": 1.126,
+      "b": -0.72,
+      "d": -0.085
+    }
+  ],
+  "exitModes": [
+    {
+      "key": "conservative",
+      "trades": 18806,
+      "share": 19.9,
+      "avgTradePct": 1.61,
+      "winRate": 97.2,
+      "avgDurationSec": 21017,
+      "avgMaxWeight": 1.9,
+      "returnPct": 10.9
+    },
+    {
+      "key": "normal",
+      "trades": 52261,
+      "share": 55.3,
+      "avgTradePct": 2.14,
+      "winRate": 96.2,
+      "avgDurationSec": 30907,
+      "avgMaxWeight": 2.4,
+      "returnPct": 13.97
+    },
+    {
+      "key": "aggressive",
+      "trades": 17011,
+      "share": 18,
+      "avgTradePct": 2.56,
+      "winRate": 95.7,
+      "avgDurationSec": 45124,
+      "avgMaxWeight": 2.8,
+      "returnPct": 17.74
+    },
+    {
+      "key": "overkill",
+      "trades": 7655,
+      "share": 8.1,
+      "avgTradePct": 3.1,
+      "winRate": 94.8,
+      "avgDurationSec": 59960,
+      "avgMaxWeight": 3.3,
+      "returnPct": 21.23
+    }
+  ],
+  "weights": [
+    {
+      "weight": 0,
+      "share": 29,
+      "avgTradePct": 0.9
+    },
+    {
+      "weight": 1,
+      "share": 20,
+      "avgTradePct": 1.52
+    },
+    {
+      "weight": 2,
+      "share": 15,
+      "avgTradePct": 2.14
+    },
+    {
+      "weight": 3,
+      "share": 11,
+      "avgTradePct": 2.76
+    },
+    {
+      "weight": 4,
+      "share": 8.5,
+      "avgTradePct": 3.38
+    },
+    {
+      "weight": 5,
+      "share": 6.5,
+      "avgTradePct": 4
+    },
+    {
+      "weight": 6,
+      "share": 4.5,
+      "avgTradePct": 4.62
+    },
+    {
+      "weight": 7,
+      "share": 3,
+      "avgTradePct": 5.24
+    },
+    {
+      "weight": 8,
+      "share": 2.5,
+      "avgTradePct": 5.86
+    }
+  ],
+  "closeReasons": {
+    "take": 80.16,
+    "basket": 17.56,
+    "stop": 1.49,
+    "liq": 0.79
+  },
+  "exchanges": [
+    {
+      "key": "bybit",
+      "share": 52,
+      "trades": 49142,
+      "returnPct": 165.48
+    },
+    {
+      "key": "binance",
+      "share": 24,
+      "trades": 22681,
+      "returnPct": 171.09
+    },
+    {
+      "key": "bitget",
+      "share": 16,
+      "trades": 15121,
+      "returnPct": 170.5
+    },
+    {
+      "key": "okx",
+      "share": 8,
+      "trades": 7560,
+      "returnPct": 167.49
+    }
+  ],
+  "stages": [
+    {
+      "key": "PUMP",
+      "direction": "LONG",
+      "trades": 18756,
+      "share": 19.8,
+      "returnPct": 156.8,
+      "avgTradePct": 2.16,
+      "winRate": 96.4,
+      "deepShare": 8.1,
+      "maeMedPct": 10,
+      "maeP90Pct": 23,
+      "durMedSec": 27904,
+      "spark": [
+        19.59,
+        -10.06,
+        11.12,
+        12.63,
+        11.74,
+        17.23,
+        18.49,
+        11.65,
+        10.49,
+        20.93,
+        17.87,
+        12.9
+      ]
+    }
+  ],
+  "coins": []
+}

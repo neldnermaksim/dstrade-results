@@ -1,0 +1,62 @@
+{
+  "symbol": "BTC",
+  "name": "Bitcoin",
+  "rank": 1,
+  "tier": 10,
+  "exchanges": [
+    "binance",
+    "bybit",
+    "bitget",
+    "okx"
+  ],
+  "months": [
+    {
+      "ym": "2025-01",
+      "long": 4.26,
+      "short": 2.96,
+      "tradesLong": 651,
+      "tradesShort": 250,
+      "spot": 5.08
+    },
+    {
+      "ym": "2025-02",
+      "long": 3.03,
+      "short": 3.47,
+      "tradesLong": 527,
+      "tradesShort": 366,
+      "spot": 3.25
+    }
+  ],
+  "long": {
+    "returnPct12m": 47.94,
+    "avgMonthPct": 4.06,
+    "trades12m": 18518,
+    "winRate": 98.7,
+    "avgDurationSec": 61822,
+    "drawdownP90Pct": -14,
+    "bestMonth": {
+      "ym": "2026-03",
+      "pct": 5.6
+    },
+    "worstMonth": {
+      "ym": "2025-11",
+      "pct": 1.36
+    }
+  },
+  "short": {
+    "returnPct12m": 62.53,
+    "avgMonthPct": 5.37,
+    "trades12m": 10256,
+    "winRate": 99,
+    "avgDurationSec": 77862,
+    "drawdownP90Pct": -15.8,
+    "bestMonth": {
+      "ym": "2026-07",
+      "pct": 8.11
+    },
+    "worstMonth": {
+      "ym": "2026-06",
+      "pct": 2.18
+    }
+  }
+}

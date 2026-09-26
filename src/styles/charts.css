@@ -1,0 +1,252 @@
+.chart-box {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  user-select: none;
+}
+
+.chart-box svg {
+  display: block;
+  overflow: visible;
+}
+
+.chart-tip {
+  position: absolute;
+  top: 6px;
+  z-index: 5;
+  min-width: 170px;
+  padding: 9px 11px;
+  border: 1px solid var(--line2);
+  border-radius: 10px;
+  background: rgba(12, 17, 29, 0.96);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
+  font-size: 0.75rem;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.chart-tip-date {
+  margin-bottom: 6px;
+  color: var(--mut);
+  font-size: 0.6875rem;
+}
+
+.chart-tip-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 0;
+}
+
+.chart-tip-row span {
+  flex: 1;
+  color: var(--mut);
+}
+
+.chart-tip-row b {
+  font-weight: 700;
+}
+
+.chart-tip-row i {
+  width: 10px;
+  height: 2px;
+  border-radius: 2px;
+}
+
+.chart-tip-row i.dash {
+  background: repeating-linear-gradient(90deg, var(--mut) 0 3px, transparent 3px 5px);
+}
+
+.chart-tip-meta {
+  margin-top: 4px;
+  font-size: 0.6875rem;
+  color: var(--mut);
+}
+
+.chart-sweep {
+  animation: chart-sweep 9s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes chart-sweep {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(var(--sweep, 500px));
+  }
+}
+
+.chart-end {
+  animation: public-price-pulse 2.5s ease-in-out infinite;
+}
+
+@keyframes public-price-pulse {
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.spark {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pair-zero {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* календарь-теплокарта */
+.cal-heat {
+  overflow-x: auto;
+}
+
+/* 100%-полоса причин закрытия */
+.stackbar-track {
+  display: flex;
+  gap: 2px;
+  height: 12px;
+  border-radius: 7px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.stackbar-track span {
+  display: block;
+  height: 100%;
+  transition: width 0.5s var(--ease-out);
+}
+
+.stackbar-legend {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px 22px;
+  margin-top: 14px;
+}
+
+.stackbar-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+  font-size: 0.8125rem;
+  color: var(--mut);
+  border-bottom: 1px solid var(--line);
+}
+
+.stackbar-item i {
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  flex: none;
+}
+
+.stackbar-item b {
+  margin-left: auto;
+  color: var(--txt);
+  font-weight: 650;
+}
+
+/* календарь месяца */
+.mcal-row {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.mcal-head div {
+  padding: 0 4px 6px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--mut2);
+}
+
+.mcal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.mcal-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 74px;
+  padding: 7px 8px;
+  border-radius: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--panel2);
+}
+
+.mcal-cell.pad {
+  background: transparent;
+  border-color: transparent;
+}
+
+.mcal-cell.future {
+  opacity: 0.45;
+}
+
+.mcal-day {
+  font-size: 0.6875rem;
+  color: rgba(231, 237, 247, 0.72);
+}
+
+.mcal-cell b {
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.mcal-cell small {
+  font-size: 0.625rem;
+  color: rgba(231, 237, 247, 0.6);
+}
+
+/* теплокарта таблицей */
+.heat-wrap {
+  padding-bottom: 4px;
+}
+
+.pub-heat th.cur {
+  color: var(--acc);
+}
+
+.heat-cur {
+  margin-left: 2px;
+  color: var(--acc);
+  font-size: 0.75rem;
+}
+
+.pub-heat tbody tr.clickable {
+  cursor: pointer;
+}
+
+.pub-heat tbody tr.clickable:hover td.l {
+  color: var(--acc);
+}
+
+@media (max-width: 720px) {
+  .stackbar-legend {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .mcal-row,
+  .mcal-grid {
+    gap: 3px;
+  }
+  .mcal-cell {
+    min-height: 52px;
+    padding: 5px;
+  }
+  .mcal-cell b {
+    font-size: 0.625rem;
+  }
+  .mcal-cell small {
+    display: none;
+  }
+}

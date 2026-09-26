@@ -1,0 +1,31 @@
+{
+  "period": "30d",
+  "from": "2026-08-28",
+  "to": "2026-09-26",
+  "updatedAt": "2026-09-26T22:00:00.000Z",
+  "returnPct": 10.22,
+  "profitUsd": 242444.9,
+  "benchmarkPct": 5.92,
+  "trades": 83954,
+  "tradesPerDay": 2798.5,
+  "wins": 82429,
+  "losses": 1525,
+  "winRate": 98.2,
+  "avgTradePct": 1.08,
+  "avgWinPct": 1.6,
+  "avgLossPct": -26.79,
+  "avgDurationSec": 44412,
+  "avgDurationWinSec": 43524,
+  "avgDurationLossSec": 104369,
+  "activeBots": 3650,
+  "accounts": 1240,
+  "volumeUsd": 131644397,
+  "feesPct": -0.7,
+  "fundingPct": 0.28,
+  "closeReasons": {
+    "take": 82.28,
+    "basket": 15.72,
+    "stop": 1.7,
+    "liq": 0.3
+  }
+}

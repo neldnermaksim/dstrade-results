@@ -1,0 +1,52 @@
+/*
+ * Токены — значения из публичной части dstrade.io (.public-site) и кабинета (стадии, причины закрытия).
+ * Меняйте только здесь: остальные стили ссылаются на переменные.
+ */
+:root {
+  --bg: #070b14;
+  --bg2: #0a0e16;
+  --panel: rgba(20, 26, 42, 0.55);
+  --panel-solid: #141a2a;
+  --panel2: rgba(255, 255, 255, 0.03);
+  --line: rgba(255, 255, 255, 0.09);
+  --line2: rgba(255, 255, 255, 0.18);
+  --txt: #e7edf7;
+  --mut: #8b9bb8;
+  --mut2: #5d6b88;
+  --up: #34d399;
+  --down: #fb7185;
+  --warn: #fbbf24;
+  --unl: #22d3ee;
+  --acc: #a78bfa;
+  --acc2: #b9a2ff;
+  --accs: #8b5cf6;
+  --accd: rgba(139, 92, 246, 0.16);
+  --sl: #d65db1;
+  --plus: #f4d7a2;
+
+  /* стадии скринера — как в кабинете */
+  --stage-pump: #22c55e;
+  --stage-ride: #38bdf8;
+  --stage-run: #a3e635;
+  --stage-crash: #a78bfa;
+  --stage-flip: #fbbf24;
+  --stage-dump: #ef4444;
+  --stage-early: #f0883e;
+
+  /* панели в стиле кабинета */
+  --card-grad: linear-gradient(135deg, rgba(23, 30, 46, 0.92), rgba(15, 20, 32, 0.92));
+  --card-shadow: inset 0 1px 0 rgba(235, 242, 255, 0.055), 0 4px 16px rgba(0, 0, 0, 0.22);
+  --kpi-grad: linear-gradient(135deg, rgba(30, 39, 58, 0.9), rgba(20, 27, 42, 0.9));
+
+  --r: 16px;
+  --r-md: 14px;
+  --r2: 10px;
+  --r-sm: 8px;
+  --r-xs: 7px;
+
+  --ease: cubic-bezier(0.32, 0.72, 0.25, 1);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --header-h: 92px;
+  --font: 'Manrope Variable', Manrope, 'Segoe UI', system-ui, sans-serif;
+}

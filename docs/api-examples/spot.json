@@ -1,0 +1,20 @@
+{
+  "from": "2026-04-01",
+  "to": "2026-09-26",
+  "rows": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "spotPct": -1.13,
+      "algoPct": 21.89
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "spotPct": -0.7,
+      "algoPct": 29.65
+    }
+  ],
+  "spotIndexPct": 4.05,
+  "algoIndexPct": 32.19
+}

@@ -1,0 +1,198 @@
+{
+  "ym": "2026-08",
+  "returnPct": 8.8,
+  "trades": 76109,
+  "winRate": 97.9,
+  "bestCoin": {
+    "symbol": "ENA",
+    "pct": 14.29
+  },
+  "current": false,
+  "segments": [
+    {
+      "key": "manual_long",
+      "strategy": "manual",
+      "direction": "LONG",
+      "returnPct": 6.25,
+      "avgMonthPct": 6.13,
+      "trades": 43179,
+      "winRate": 98.2,
+      "avgTradePct": 0.95,
+      "avgDurationSec": 52001,
+      "drawdownP90Pct": -18.9,
+      "liqShare": 0.19,
+      "bots": 1623,
+      "risk": "moderate",
+      "spark": [
+        6.71,
+        1.55,
+        6.86,
+        6.7,
+        5.37,
+        8.5,
+        5.74,
+        5.56,
+        5.51,
+        5.93,
+        6.25,
+        6.24
+      ]
+    }
+  ],
+  "coinsLong": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "rank": 1,
+      "tier": 10,
+      "exchanges": [
+        "binance",
+        "bybit",
+        "bitget",
+        "okx"
+      ],
+      "trades": 1707,
+      "returnPct": 3.74,
+      "winRate": 99.6,
+      "avgDurationSec": 67647,
+      "drawdownP90Pct": -15.9,
+      "spotPct": 3.17,
+      "spark": [
+        4.59,
+        1.36,
+        4.6,
+        5.17,
+        4.73,
+        5.6,
+        3.59,
+        3.39,
+        4.61,
+        3.31,
+        3.74,
+        3.25
+      ]
+    }
+  ],
+  "coinsShort": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "rank": 1,
+      "tier": 10,
+      "exchanges": [
+        "binance",
+        "bybit",
+        "bitget",
+        "okx"
+      ],
+      "trades": 592,
+      "returnPct": 6.53,
+      "winRate": 98.4,
+      "avgDurationSec": 73759,
+      "drawdownP90Pct": -15.6,
+      "spotPct": 3.17,
+      "spark": [
+        4.74,
+        6.07,
+        4.72,
+        7.88,
+        5.75,
+        5.16,
+        4.15,
+        3.76,
+        2.18,
+        8.11,
+        6.53,
+        3.48
+      ]
+    }
+  ],
+  "top3": [
+    {
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "trades": 240,
+      "returnPct": 43.47,
+      "strategy": "auto",
+      "direction": "LONG",
+      "stage": "PUMP"
+    },
+    {
+      "symbol": "STRK",
+      "name": "Starknet",
+      "trades": 464,
+      "returnPct": 39.87,
+      "strategy": "auto",
+      "direction": "SHORT",
+      "stage": "FLIP"
+    },
+    {
+      "symbol": "SAGA",
+      "name": "Saga",
+      "trades": 346,
+      "returnPct": 34.67,
+      "strategy": "auto",
+      "direction": "LONG",
+      "stage": "CRASH"
+    }
+  ],
+  "portfolioTop15Pct": 5.11,
+  "days": [
+    {
+      "d": "2026-08-01",
+      "pct": 0.75,
+      "trades": 2647
+    },
+    {
+      "d": "2026-08-02",
+      "pct": 0.07,
+      "trades": 2111
+    }
+  ],
+  "stages": [
+    {
+      "key": "PUMP",
+      "direction": "LONG",
+      "trades": 1950,
+      "share": 21,
+      "returnPct": 17.87,
+      "avgTradePct": 2.1,
+      "winRate": 96.8,
+      "deepShare": 7.5,
+      "maeMedPct": 9,
+      "maeP90Pct": 23.400000000000002,
+      "durMedSec": 25920,
+      "spark": []
+    }
+  ],
+  "records": {
+    "bestTrade": {
+      "symbol": "TIA",
+      "date": "2026-08-25",
+      "pct": 25.63,
+      "strategy": "auto"
+    },
+    "worstTrade": {
+      "symbol": "FARTCOIN",
+      "date": "2026-08-23",
+      "pct": -53.45,
+      "strategy": "auto"
+    },
+    "bestDay": {
+      "date": "2026-08-25",
+      "pct": 0.79,
+      "trades": 1701
+    },
+    "bestMonth": {
+      "ym": "2026-08",
+      "pct": 8.8
+    },
+    "bestCoin": {
+      "symbol": "ENA",
+      "pct": 14.29
+    },
+    "streak": 730
+  },
+  "prev": "2026-07",
+  "next": "2026-09"
+}

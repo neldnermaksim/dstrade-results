@@ -1,0 +1,66 @@
+[
+  {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "rank": 1,
+    "tier": 10,
+    "exchanges": [
+      "binance",
+      "bybit",
+      "bitget",
+      "okx"
+    ],
+    "trades": 2006,
+    "returnPct": 3.73,
+    "winRate": 98.8,
+    "avgDurationSec": 64081,
+    "drawdownP90Pct": -13,
+    "spotPct": 5.78,
+    "spark": [
+      4.59,
+      1.36,
+      4.6,
+      5.17,
+      4.73,
+      5.6,
+      3.59,
+      3.39,
+      4.61,
+      3.31,
+      3.74,
+      3.25
+    ]
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "rank": 2,
+    "tier": 10,
+    "exchanges": [
+      "binance",
+      "bybit",
+      "bitget",
+      "okx"
+    ],
+    "trades": 2964,
+    "returnPct": 6.57,
+    "winRate": 98.7,
+    "avgDurationSec": 73000,
+    "drawdownP90Pct": -17.5,
+    "spotPct": 3.02,
+    "spark": [
+      3.65,
+      -2.06,
+      7.16,
+      5.26,
+      5.61,
+      6.5,
+      2.78,
+      5.14,
+      5.2,
+      5.54,
+      5.07,
+      5.92
+    ]
+  }
+]

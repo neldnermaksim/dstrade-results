@@ -1,0 +1,206 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  -webkit-text-size-adjust: 100%;
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--txt);
+  font: 16px/1.6 var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-numeric: tabular-nums;
+  overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+svg {
+  display: block;
+}
+
+button,
+a,
+summary {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+a,
+input,
+summary,
+[tabindex] {
+  outline-offset: 5px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--acc);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+::selection {
+  background: var(--accs);
+  color: var(--txt);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 550;
+}
+
+h1 {
+  font-size: clamp(3.25rem, 5.8vw, 5.6rem);
+  line-height: 1.035;
+  letter-spacing: -0.058em;
+}
+
+h1 span,
+h2 .pub-grad {
+  background: linear-gradient(120deg, var(--txt) 0%, var(--acc) 60%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h2 {
+  font-size: clamp(2.3rem, 3.6vw, 3.45rem);
+  font-weight: 500;
+  letter-spacing: -0.047em;
+  line-height: 1.12;
+}
+
+h3 {
+  font-size: 1.3rem;
+  line-height: 1.35;
+  letter-spacing: -0.025em;
+}
+
+p {
+  margin: 0;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+.up {
+  color: var(--up);
+}
+
+.down {
+  color: var(--down);
+}
+
+.warn {
+  color: var(--warn);
+}
+
+.mut {
+  color: var(--mut);
+}
+
+.mut2 {
+  color: var(--mut2);
+}
+
+.acc {
+  color: var(--acc);
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.skip {
+  position: fixed;
+  top: -80px;
+  left: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--accs);
+  color: var(--txt);
+  z-index: 99;
+}
+
+.skip:focus {
+  top: 10px;
+}
+
+/* тонкий скроллбар как в кабинете */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(185, 205, 235, 0.18) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(185, 205, 235, 0.16);
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "symbol": "WLD",
+    "name": "Worldcoin",
+    "trades": 240,
+    "returnPct": 43.47,
+    "strategy": "auto",
+    "direction": "LONG",
+    "stage": "PUMP"
+  },
+  {
+    "symbol": "STRK",
+    "name": "Starknet",
+    "trades": 464,
+    "returnPct": 39.87,
+    "strategy": "auto",
+    "direction": "SHORT",
+    "stage": "FLIP"
+  },
+  {
+    "symbol": "SAGA",
+    "name": "Saga",
+    "trades": 346,
+    "returnPct": 34.67,
+    "strategy": "auto",
+    "direction": "LONG",
+    "stage": "CRASH"
+  }
+]

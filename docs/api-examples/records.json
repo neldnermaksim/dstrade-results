@@ -1,0 +1,28 @@
+{
+  "bestTrade": {
+    "symbol": "CHR",
+    "date": "2026-09-03",
+    "pct": 48.29,
+    "strategy": "auto"
+  },
+  "worstTrade": {
+    "symbol": "FARTCOIN",
+    "date": "2026-08-29",
+    "pct": -63.14,
+    "strategy": "auto"
+  },
+  "bestDay": {
+    "date": "2026-09-18",
+    "pct": 0.94,
+    "trades": 2521
+  },
+  "bestMonth": {
+    "ym": "2026-08",
+    "pct": 8.8
+  },
+  "bestCoin": {
+    "symbol": "HBAR",
+    "pct": 12.37
+  },
+  "streak": 231
+}

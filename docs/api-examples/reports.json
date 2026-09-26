@@ -1,0 +1,24 @@
+[
+  {
+    "ym": "2026-09",
+    "returnPct": 7.81,
+    "trades": 74882,
+    "winRate": 98.7,
+    "bestCoin": {
+      "symbol": "HBAR",
+      "pct": 11.15
+    },
+    "current": true
+  },
+  {
+    "ym": "2026-08",
+    "returnPct": 8.8,
+    "trades": 76109,
+    "winRate": 97.9,
+    "bestCoin": {
+      "symbol": "ENA",
+      "pct": 14.29
+    },
+    "current": false
+  }
+]
